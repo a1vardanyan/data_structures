@@ -1,9 +1,9 @@
 class binary_heap:
     'min priority'
     def __init__(self):
-        self.data = [0 for i in range(8)]
+        self.data = [0 for i in range(1)]
         self.size = 0
-        self.capacity = 8
+        self.capacity = 1
     def get_min(self):
         if self.size > 0:
             return self.data[0]
